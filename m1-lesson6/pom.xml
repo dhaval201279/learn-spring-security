@@ -13,9 +13,7 @@ Module  1 - Lesson 6</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <!-- DPS02 -->
-        <!--<version>1.5.2.RELEASE</version>-->
-        <version>1.5.22.RELEASE</version>
+        <version>2.0.0.RELEASE</version>
         <relativePath></relativePath> <!-- lookup parent from repository -->
     </parent>
 
@@ -135,12 +133,12 @@ Module  1 - Lesson 6</description>
             <scope>test</scope>
         </dependency>
 
-        <!-- DPS01 - Should be removed after migration-->
-        <!--<dependency>
+        <!-- DPS03 - Should be removed after migration-->
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-properties-migrator</artifactId>
             <scope>runtime</scope>
-        </dependency>-->
+        </dependency>
 
     </dependencies>
 
@@ -150,14 +148,6 @@ Module  1 - Lesson 6</description>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <!-- DPS03 -->
-                <!--<dependencies>
-                    <dependency>
-                        <groupId>org.springframework</groupId>
-                        <artifactId>springloaded</artifactId>
-                        <version>${spring-loaded.version}</version>
-                    </dependency>
-                </dependencies>-->
             </plugin>
 
             <plugin>
