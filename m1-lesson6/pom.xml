@@ -13,7 +13,7 @@ Module  1 - Lesson 6</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.0</version>
+        <version>2.5.4</version>
         <relativePath></relativePath> <!-- lookup parent from repository -->
     </parent>
 
@@ -133,12 +133,6 @@ Module  1 - Lesson 6</description>
             <scope>test</scope>
         </dependency>
 
-        <!-- DPS03 - Should be removed after migration-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-properties-migrator</artifactId>
-            <scope>runtime</scope>
-        </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
